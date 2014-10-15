@@ -1,0 +1,285 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Sebastian} % Your first name
+\familyname{Castillo} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Crr79A 53A-32 ap401}{Medellin, Colombia}
+\mobile{(+57) 300 603 59 94}
+\email{sebastian@nullindustries.co}
+\homepage{http://github.com/scastillo}{github/scastillo} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{additional information}
+
+\quote{"You will be free hackers, you will be free" - R. Stallman}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+\section{}
+\cventry{Zerply}{http://zerp.ly/castillobuiles}{}{}{}{}
+\cventry{LinkedIn}{http://co.linkedin.com/pub/sebastian-castillo/1a/5a1/862}{}{}{}{}
+\cventry{Twitter}{http://twitter.com/castillobuiles}{}{}{}{}
+\cventry{HN}{http://news.ycombinator.com/user?id=scastillo}{}{}{}{}
+\cventry{Github}{http://github.com/scastillo}{}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2004--2008}{Computer Sc.}{Universidad EAFIT}{Medellin}{}{Logic and computation group member, Software engineering monitor, High availability architecture designer}  % Arguments not required can be left empty
+
+\subsection{Research}
+\cventry{2007}{Hardware Model Driven Development MDA}{Universidad de antioquia}{}{Automatic code generation UML2.0 => SystemC}{}
+
+\section{Other studies}
+\cventry{2008}{}{CMMI v1.2}{Official SEI course}{}{}{}
+\cventry{2005}{}{Mobile applications development with J2ME}{Universidad EAFIT}{}{}{}
+\cventry{2007}{}{Cisco Certified Network Associate CCNA}{Universidad EAFIT}{}{}{}
+\cventry{2006}{}{Linux server routing}{Universidad EAFIT}{}{}{}
+\cventry{2002}{}{Java OOP}{Universidad Nacional}{}{}{}
+
+\section{I have been speaker at}
+\cventry{2011}{Sexy Continuous Integration}{CMMI v1.2}{Official SEI course}{}{}{}
+\cventry{2011}{How to build an entrepreneurs network (CoffeeGrid)}{DELM}{Jardin Botanico}{}{}{}
+\cventry{2010}{Virtual payment methods with paymentez}{GAE Summit}{Google HQ, Palo Alto}{}{}{}
+\cventry{2010}{Unit testing for Google App Engine}{Paymentez Summit}{Mentez LLC}{}{}{}
+\cventry{2010}{Intro to security architectures and SABSA}{Primary group}{Fluidsignal}{}{}{}
+\cventry{2009}{Hands on: Man in the middle attacks with ARP poison}{Security week conferences}{CSM}{}{}{}
+
+
+\section{I have teach the following courses}
+\cventry{2008}{Operative systems and GNU-Linux}{Universidad EAFIT}{Catedra emrpesarial}{}{}{}
+\cventry{2009}{Penetration testing and information security}{Universidad EAFIT}{Cryptography, owasp top 10, ARP poison, SSH MiM, ISO27k}{}{}{}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{2014}{Founder, lead dev}{\textsc{ContextSurgery}}{http://contextsurgery.com}{}{
+Google glass for surgeons.
+\begin{itemize}
+\item High available architecture development and design. (salt + docker deployment, multi cloud providers)
+\item Scrum-like life-cycle implementation. (trello + pivotaltracker)
+\item Node (js/coffeescript) rest api + SOA architecture (python).
+\item Continuous deployment config and operation (jenkins + hubot).
+\item Single page app with backbone.js
+\item XMPP live chat
+\item WebRTC video conference rooms
+\item Glass app
+\end{itemize}
+}
+
+\cventry{2014}{Founder, lead dev}{\textsc{Geniusly}}{http://geniusly.com}{}{
+Truck management system.
+\begin{itemize}
+\item High available architecture development and design. (salt deployment, multi cloud providers)
+\item Scrum-like life-cycle implementation. (trello + pivotaltracker)
+\item Node (js/coffeescript) rest api + SOA architecture (python).
+\item Continuous deployment config and operation (jenkins + hubot).
+\item Single page app with backbone.js
+\end{itemize}
+}
+
+\cventry{2013}{lead dev}{\textsc{ScreenMedix}}{http://geniusly.com}{}{
+Google glass repair in real time.
+\begin{itemize}
+\item Redis pub/sub
+\item High available architecture development and design. (salt deployment, multi cloud providers)
+\item Scrum-like life-cycle implementation. (trello + pivotaltracker)
+\item Continuous deployment config and operation (jenkins + hubot).
+\item Single page app with backbone.js
+\end{itemize}
+}
+
+\cventry{2012--2013}{Founder}{\textsc{Engager}}{http://engager.io}{}{
+OKCupid for developers and companies.
+\begin{itemize}
+\item Ruby/Rails web app
+\item Single page app with backbone.js
+\end{itemize}
+}
+
+\cventry{2013}{Founder, cto}{\textsc{Nuage}}{}{}{
+Platform as a service PaaS for django web apps.
+\begin{itemize}
+\item Django web api
+\item High available architecture development and design. (Puppet deployment, multi cloud providers)
+\item Scrum-like life-cycle implementation. (trello + pivotaltracker)
+\item Continuous deployment config and operation (jenkins + hubot).
+\item Single page app with backbone.js
+\item Lunix containers
+\end{itemize}
+}
+
+\cventry{2012}{Lead developer}{\textsc{Tourvox}}{}{}{
+Mobile marketplace for tourists and tour guides.
+\begin{itemize}
+\item High available architecture development and design.
+\item Scrum-like life-cycle implementation.
+\item Django-nonrel + Mongo + GEO rest api development
+\item Wikipedia scrapping background task
+\item Continuous deployment config and operation
+\end{itemize}
+}
+
+\cventry{2010--2012}{Lead developer}{\textsc{Mentez LLC}}{}{}{
+\begin{itemize}
+\item High available architecture development and design (1200 hits/sec, 2M users)
+\item Scrum-like life-cycle implementation \& scrum master.
+\item Continuous deployment config and operation
+\end{itemize}
+}
+
+\cventry{2006--2011}{Projects engineer}{\textsc{Fluidsignal Group}}{}{}{
+\begin{itemize}
+\item Sofware developer
+\item Penetration tester
+\item ISO27000 and CMMI consultor
+\item Research and development leader
+\item Best practices consultant (itil, iso2700, iso9000, cmmi)
+\item Security code reviewer
+\item Social Engineering
+\end{itemize}
+}
+
+
+\subsection{Vocational}
+
+\cventry{2010--Present}{Founder, Director}{\textsc{CoffeeGrid}}{Medellin}{}{
+http://coffeegrid.org\newline{}
+CoffeeGrid is the Alcoholics Anonymous of entrepreneurship in Medellin.\newline{}
+A space, a community, a monthly commited bunch of entrepreneurs, developers, caffein adicts, citizens looking for what to do the last wednesday of each month.\newline{}
+CoffeeGrid inspire and digg entrepreneurship in local spaces, putting all together in an organic, independent and opinionated way that only we can do.\newline{}
+You can find here a co-founder, an idea, an ispiration, a free coffee, a beer or a soul mate.
+\newline{}\newline{}
+Detailed achievements:
+\begin{itemize}
+\item Learned how to make amazing coffee
+\item More than 16 events in 3 years
+\item More than 30 special guests sharing with the local community
+\item Near 8 projects growing from CoffeeGRid Feedback
+\item Pioneering community have inspired the fertil ecosystem we have today
+\end{itemize}
+}
+\cventry{2007}{Deabian project developer}{}{}{}{SIPCrack}
+
+%------------------------------------------------
+
+\cventry{2012}{Startup Weekend Organizer}{Medellin}{}{}{First BIG Startup Weekend in town, with more than 120 assitants and international mentors}
+
+\cventry{2012}{Dev Med}{Founder}{Medellin}{}{Local developers meetup\newline{}
+http://devmed.herokuapp.com/
+}
+
+\cventry{2012}{Startup Weekend Organizer}{Medellin}{}{}{First BIG Startup Weekend in town, with more than 120 assitants and international mentors}
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2013}{Startup Weekend Medellin 1st place (Elegidos: A mobile app to call a designed driver "uber for drunk guys"}
+\cvitem{2011}{Startup Weekend Bogota 1st place (BeBtr: Virtual bets mobile app)}
+
+
+
+\section{Press}
+
+\cvitem{2009}{El Colombiano}{How to protect yourself against Bluethoot hackers (bluejackong)}{}{}{}{}{}
+
+\cvitem{2009}{Teleantioquia News}{Introduction to smart devices}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Intermediate}{\textsc{iOS}, \textsc{Android}, \LaTeX}
+\cvitem{Advanced}{Python, node.js, backbone.js, Linux, High available architectures, and go linkedin to see more}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Spanish}{Mothertongue}{}
+\cvitemwithcomment{English}{Advanced}{Conversationally fluent}
+\cvitemwithcomment{Dutch, French}{Really basic}{I can go and buy milk but i'd love learning more}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
